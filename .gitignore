@@ -1,0 +1,45 @@
+*.bk
+__pycache__
+.DS_Store
+
+# Local Python environments
+.venv/
+.venv-*/
+venv/
+env/
+
+# IDE and OS files
+.idea/
+.vscode/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# Model weights and local model caches
+models/
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.gguf
+*.onnx
+
+# Hugging Face / model cache folders if users create them inside the repo
+.cache/
+huggingface/
+hf_cache/
+
+# Training outputs
+output/
+outputs/
+runs/
+wandb/
+tensorboard/

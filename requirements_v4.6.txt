@@ -1,0 +1,7 @@
+torch
+torchvision
+accelerate
+Pillow
+gradio>=4.41.0
+av
+transformers[torch]>=5.7.0

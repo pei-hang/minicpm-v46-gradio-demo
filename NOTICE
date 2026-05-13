@@ -1,0 +1,22 @@
+This project is a modified derivative of OpenBMB/MiniCPM-V.
+
+Original project:
+https://github.com/OpenBMB/MiniCPM-V
+
+Original copyright:
+Copyright OpenBMB
+
+License:
+Apache License 2.0
+
+This repository is not an official OpenBMB project.
+
+Major changes in this repository:
+- Added a simplified Gradio demo for MiniCPM-V 4.6 local multimodal inference.
+- Added local setup and usage documentation.
+- Added a PyAV-based video decoding workaround for macOS environments where torchvision video decoding is unavailable.
+- Added localhost/no_proxy handling for more reliable local Gradio startup.
+- Removed unused legacy demos, evaluation code, old assets, and unrelated documentation from the original repository.
+
+Model weights are not redistributed in this repository. Users should download or cache the model from the official Hugging Face repository:
+https://huggingface.co/openbmb/MiniCPM-V-4.6
